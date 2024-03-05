@@ -40,7 +40,8 @@ Add service to `config.yml`
     items:
       - name: "Clock"
         logo: "assets/tools/clock.png"
-        link: "https://github.com/makarbass/Clock-Widget-for-Homer"
+        url: "https://github.com/makarbass/Clock-Widget-for-Homer"
         subtitle: "UTC +3"
         type: "Clock"
+        target: "_blank"
 ```
