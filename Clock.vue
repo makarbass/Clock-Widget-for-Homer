@@ -2,7 +2,7 @@
    <div>
       <div class="card" :class="item.class">
          <a
-            :href="item.link"
+            :href="item.url"
             :target="item.target"
             >
             <div class="card-content">
