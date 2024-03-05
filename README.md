@@ -14,18 +14,23 @@ Clone files to your server
 Clone [this repo](https://github.com/makarbass/Clock-Widget-for-Homer.git). You can do this by running:
 
 ```sh
-$ git clone https://github.com/makarbass/Clock-Widget-for-Homer.git
+git clone https://github.com/makarbass/Clock-Widget-for-Homer.git
 ```
 
 Now cd into the newly created folder.
 
 ```sh
-$ cd Clock-Widget-for-Homer
+cd Clock-Widget-for-Homer
 ```
 
 Clone `Clock.vue` file into your Homer services path
 ```sh
-$ cp Clock.vue homer/src/components/services/Clock.vue
+cp Clock.vue homer/src/components/services/Clock.vue
+```
+
+Rebuild your docker compose
+```sh
+$ docker compose build
 ```
 
 Add service to `config.yml`
